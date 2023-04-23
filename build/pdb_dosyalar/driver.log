@@ -1,0 +1,13 @@
+﻿C:\Users\FFFFFFFFF\Desktop\madapexmem\kernelmode\driver.vcxproj(35,5): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.Shared.props (352,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+C:\Users\FFFFFFFFF\Desktop\madapexmem\kernelmode\driver.vcxproj(112,5): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets (1878,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  entry.cpp
+  mouse.cpp
+C:\Users\FFFFFFFFF\Desktop\madapexmem\kernelmode\imports.h(2,1): warning C4117: macro name '_KERNEL_MODE' is reserved, '#define' ignored (compiling source file entry.cpp)
+C:\Users\FFFFFFFFF\Desktop\madapexmem\kernelmode\utils.h(299,70): warning C4311: 'reinterpret_cast': pointer truncation from 'HANDLE' to 'int' (compiling source file entry.cpp)
+  Generating code
+  Finished generating code
+  driver.vcxproj -> C:\Users\FFFFFFFFF\Desktop\madapexmem\kernelmode\build\dataptr_driver.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
